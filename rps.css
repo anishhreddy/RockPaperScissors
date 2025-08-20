@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#headp {
+  font-size: 4rem;
+  font-family: monospace;
+}
+
+.b1 {
+  height: 200px;
+  width: 200px;
+  font-size: 5.8rem;
+  margin-right: 20px;
+  border-radius: 50%;
+  border: none;
+  background-color: hsl(200, 80%, 50%);
+  margin-bottom: 45px;
+  transition: 0.5s ease;
+}
+
+.b1:hover {
+  background-color: hsl(200, 80%, 70%);
+}
+
+.pc {
+  font-size: 2rem;
+  font-family: monospace;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.pc1 {
+  font-size: 2rem;
+  font-family: monospace;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#displayMessage {
+  font-size: 3.5rem;
+  font-family: monospace;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.greentext {
+  color: rgb(6, 229, 6);
+}
+
+.redtext {
+  color: red;
+}
